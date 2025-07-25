@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <?- include('../partials/head') -?>
+  <body>
+    <?- include('../partials/header') -?>
+    <?- include('../partials/nav') -?>
+    <div class="container text-center">
+      <h1><?= pageData.title ?></h1>
+      <p>
+        Welcome to
+        <?= pageData.title ?>
+      </p>
+    </div>
+    <?- include('../partials/footer') -?>
+  </body>
+</html>
+
+<div
+      id="carouselExampleAutoplaying"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://www.flashfly.net/wp/wp-content/uploads/2018/08/Windows95.jpg" class="d-block w-100" alt="https://www.flashfly.net/wp/wp-content/uploads/2018/08/Windows95.jpg" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://c4.wallpaperflare.com/wallpaper/573/28/1023/windows-98-microsoft-windows-vintage-90s-computer-wallpaper-preview.jpg" class="d-block w-100" alt="https://c4.wallpaperflare.com/wallpaper/573/28/1023/windows-98-microsoft-windows-vintage-90s-computer-wallpaper-preview.jpg" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.wearethemighty.com/wp-content/uploads/legacy/assets.rbl.ms/17301159/origin.jpg?strip=all&quality=85" class="d-block w-100" alt="https://www.wearethemighty.com/wp-content/uploads/legacy/assets.rbl.ms/17301159/origin.jpg?strip=all&quality=85" />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
